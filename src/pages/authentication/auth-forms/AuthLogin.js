@@ -24,7 +24,7 @@ import AnimateButton from "components/@extended/AnimateButton";
 
 // assets
 import { EyeOutlined, EyeInvisibleOutlined } from "@ant-design/icons";
-import { loginCall } from "../loginFunction";
+import loginCall from "./../loginFunction";
 
 // ============================|| FIREBASE - LOGIN ||============================ //
 

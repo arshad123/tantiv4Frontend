@@ -1,6 +1,6 @@
 const { default: api } = require("utils/api");
 
-const loginCall = async (userCredential) => {
+export default async (userCredential) => {
   // admin login
   try {
     const res = await api({ url: "auth/admins", method: "POST", data: userCredential });
@@ -10,5 +10,3 @@ const loginCall = async (userCredential) => {
     return err;
   }
 };
-
-exports.loginCall = loginCall;

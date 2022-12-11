@@ -1,6 +1,6 @@
 const { default: api } = require("utils/api");
 
-const dashboardCall = async () => {
+export const dashboardCall = async () => {
   // admin dashboard
   try {
     const res = await api({ url: "dashboard", method: "GET" });
@@ -11,7 +11,7 @@ const dashboardCall = async () => {
   }
 };
 
-const hostsCall = async () => {
+export const hostsCall = async () => {
   // admin dashboard
   try {
     const res = await api({ url: "dashboard/hosts", method: "GET" });
@@ -21,6 +21,3 @@ const hostsCall = async () => {
     return err;
   }
 };
-
-exports.hostsCall = hostsCall;
-exports.dashboardCall = dashboardCall;
