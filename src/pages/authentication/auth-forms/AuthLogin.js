@@ -13,7 +13,6 @@ import {
   InputLabel,
   OutlinedInput,
   Stack,
-  Typography,
 } from "@mui/material";
 
 // third party
@@ -25,7 +24,6 @@ import AnimateButton from "components/@extended/AnimateButton";
 
 // assets
 import { EyeOutlined, EyeInvisibleOutlined } from "@ant-design/icons";
-import { json } from "../../../../node_modules/react-router-dom/dist/index";
 import { loginCall } from "../loginFunction";
 
 // ============================|| FIREBASE - LOGIN ||============================ //
