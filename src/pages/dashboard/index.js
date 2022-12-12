@@ -58,7 +58,7 @@ const DashboardDefault = () => {
       <Grid item xs={12} sm={6} md={4} lg={3}>
         <AnalyticEcommerce
           title="Total Usage Time"
-          count={usageTime ? parseFloat(usageTime / 360).toFixed(2) + " Hr" : "..."}
+          count={usageTime ? parseFloat(usageTime / 3600).toFixed(2) + " Hr" : "..."}
         />
       </Grid>
 
