@@ -60,7 +60,7 @@ const DashboardDefault = () => {
       <Grid item xs={12} md={7} lg={12}>
         <Grid container alignItems="center" justifyContent="space-between">
           <Grid item>
-            <Typography variant="h5">Recent Orders</Typography>
+            <Typography variant="h5">Host wide usage</Typography>
           </Grid>
           <Grid item />
         </Grid>
